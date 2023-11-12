@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 2%;
+    left: 85%;
+}
+.Funciones-Extras{
+    position: fixed;
+    left: 25px;
+    top: 2%;
+}
+
+button{
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    color: white;
+    border-color: transparent;
+    height: 2rem;
+}
+
+input {
+    margin-left: 10rem;
+    height: 30px;
+    border-radius: 16px;
+    width: 20rem;
+}
+
+img{
+    margin-left: 12rem;
+}
+
+section{
+    display: grid;
+    grid: repeat(1, 120px) / auto-flow 15rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
+section > div {
+    color:dodgerblue;
+}
+
+footer {
+    margin-left: 15rem;   
+}
